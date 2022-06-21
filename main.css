@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 60px 150px 100px 120px;
+    background-color: hsl(228, 33%, 97%);
+}
+
+.post {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.post :nth-child(2) {
+    margin-right: 10px;
+}
+
+.votos {
+    margin: 20px;
+    background-color: hsl(228, 33%, 97%);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.votos img {
+    margin: 10px;    
+}
+
+.votos p {
+    color: hsl(238, 40%, 52%);
+    margin: 5px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-izq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-izq img {
+    height: 50%;
+    margin: 5px;
+}
+
+.titulo-izq h3 {
+    color: hsl(212, 24%, 26%);
+    margin: 5px;
+}
+
+.titulo-izq span {
+    margin: 5px;
+}
+
+.titulo-der {
+    display: flex;
+    align-items: center;
+}
+
+.titulo-der img {
+    margin-right: 10px;
+}
+
+.titulo-der span {
+    color: hsl(238, 40%, 52%);
+}
+
+.rpta {
+    margin-left: 50px;
+    padding-left: 50px;
+    border-left: 2px solid lightgray;
+}
+
+.you {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.borrar {
+    color: red;
+}
+
+.post > img {
+    height: 50%;
+    margin: 30px 10px 0 30px;
+}
+
+textarea {
+    margin: 30px 10px;
+    width: 100%;
+    border-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 120px;
+    color: gray;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    background-color: hsl(238, 40%, 52%);
+    border-radius: 10px;
+    color: white;
+    margin: 30px 30px 0 10px;
+}
